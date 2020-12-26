@@ -1,0 +1,12 @@
+<map id="Rescue::Go" name="Rescue::Go">
+<area shape="rect" id="node2" href="$classRescue.html#a68675aa6bb37102baf46803451e16c82" title="Cada vez que se llama, dará los valores de los sensores inicializados por el robot (exceptuando las c..." alt="" coords="332,17,507,43"/>
+<area shape="rect" id="node4" href="$classRescue.html#a7db0c26d41013e7405311d2725efce86" title="Función especifia usada en Go(), indica una situación especial dada en el mapa de prueba scenario7 el..." alt="" coords="146,42,283,69"/>
+<area shape="rect" id="node5" href="$classRescue.html#a4e3ec37a662b2cb91df3dcb0a875acf9" title="Aplica la tecnica del bug0 en base a una posición objetivo y asigna un valor a deg que se actualiza c..." alt="" coords="163,93,266,119"/>
+<area shape="rect" id="node6" href="$classRescue.html#ab1ea1e98e62403dc681f26529805fe2a" title="Esta función es usada principalmente en Go, su función principal es la busqueda de la linea amarilla ..." alt="" coords="147,143,283,170"/>
+<area shape="rect" id="node8" href="$classRescue.html#aeef91de334e7779ce2fb2c2b57cd70c3" title="Función principal para los modos del robot, cada vez que se llama, mira cual fue el ultimo modo activ..." alt="" coords="145,194,284,221"/>
+<area shape="rect" id="node9" href="$classRescue.html#a9a430924f65d71eca4e02dc9b2704947" title="Funcion para asignar un valor en concreto a los atributos _left_speed y _right_speed. " alt="" coords="571,219,705,246"/>
+<area shape="rect" id="node11" href="$classRescue.html#a3c978120304fcdbe702f3e306bef6c02" title="Inicializa el robot a una orientación general dada por parametro a la ida(Go()) o vuelta (Back()) del..." alt="" coords="343,295,495,322"/>
+<area shape="rect" id="node3" href="$classRescue.html#ac0d22bd4b26374b9eba3a229397b08a2" title="Convierte los valores dados por el metodo getValues() de Compass en grados. " alt="" coords="555,9,721,51"/>
+<area shape="rect" id="node7" href="$classRescue.html#af2ba5b73069e7407f1bfc857a1ddae9c" title="Convierte el espacio de colores RGB a HSV para un reconocimiento mejor de colores. " alt="" coords="350,93,489,119"/>
+<area shape="rect" id="node10" href="$classRescue.html#a47bd9c67c0e779f2dbf9ce6e5f81b831" title="Funcion generalmente usada en modo FORWARD para manener una dirección concreta dada por el atributo a..." alt="" coords="339,194,500,221"/>
+</map>

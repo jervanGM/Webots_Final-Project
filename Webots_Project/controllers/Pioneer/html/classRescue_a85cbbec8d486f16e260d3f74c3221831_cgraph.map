@@ -1,0 +1,5 @@
+<map id="Rescue::homeComing" name="Rescue::homeComing">
+<area shape="rect" id="node2" href="$classRescue.html#a4e3ec37a662b2cb91df3dcb0a875acf9" title="Aplica la tecnica del bug0 en base a una posición objetivo y asigna un valor a deg que se actualiza c..." alt="" coords="205,13,308,39"/>
+<area shape="rect" id="node3" href="$classRescue.html#a68675aa6bb37102baf46803451e16c82" title="Cada vez que se llama, dará los valores de los sensores inicializados por el robot (exceptuando las c..." alt="" coords="356,13,531,39"/>
+<area shape="rect" id="node4" href="$classRescue.html#ac0d22bd4b26374b9eba3a229397b08a2" title="Convierte los valores dados por el metodo getValues() de Compass en grados. " alt="" coords="579,5,745,47"/>
+</map>

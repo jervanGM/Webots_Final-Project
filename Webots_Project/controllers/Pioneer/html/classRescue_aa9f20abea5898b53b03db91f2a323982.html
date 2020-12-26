@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Robot Pioneer: Rescue::folloWall</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Robot Pioneer
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classRescue_aa9f20abea5898b53b03db91f2a323982.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="aa9f20abea5898b53b03db91f2a323982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9f20abea5898b53b03db91f2a323982">&#9670;&nbsp;</a></span>folloWall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Rescue::folloWall </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>En este método, el robot sigue el muro con los sensores de distancia laterales esquivando obstáculos con los sesonres de distancia frontales. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="Rescue_8cpp_source.html#l00475">475</a> del archivo <a class="el" href="Rescue_8cpp_source.html">Rescue.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;                      {</div><div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;<span class="comment">//Control del seguimiento del muro</span></div><div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;   <span class="keywordtype">bool</span> MURO_IZQUIERDA=<a class="code" href="classRescue_aaafc15a9b059bf1acbfa360915308fe5.html#aaafc15a9b059bf1acbfa360915308fe5">ir_val</a>[3]&gt;0 || <a class="code" href="classRescue_aaafc15a9b059bf1acbfa360915308fe5.html#aaafc15a9b059bf1acbfa360915308fe5">ir_val</a>[4]&gt;0;</div><div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;   <span class="keywordtype">bool</span> MURO_FRONTAL=<a class="code" href="classRescue_aaafc15a9b059bf1acbfa360915308fe5.html#aaafc15a9b059bf1acbfa360915308fe5">ir_val</a>[0]&gt;400 &amp;&amp; <a class="code" href="classRescue_aaafc15a9b059bf1acbfa360915308fe5.html#aaafc15a9b059bf1acbfa360915308fe5">ir_val</a>[15]&gt;400;</div><div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;   <span class="keywordtype">bool</span> ESQUINA=ir_val[1]&gt;0;</div><div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;   <span class="keywordflow">if</span>(MURO_FRONTAL)<a class="code" href="classRescue_a70a5e292c84029568ff6c0de2f2d9f43.html#a70a5e292c84029568ff6c0de2f2d9f43">_mode</a>=<a class="code" href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702aabd16068766c629e1f83fd217668a2e8">TURN_RIGHT</a>;</div><div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;   <span class="keywordflow">else</span> <span class="keywordflow">if</span>(MURO_IZQUIERDA){</div><div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;       <span class="keywordflow">if</span>(ir_val[3]&gt;ir_val[4])<a class="code" href="classRescue_a70a5e292c84029568ff6c0de2f2d9f43.html#a70a5e292c84029568ff6c0de2f2d9f43">_mode</a>=<a class="code" href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702ae5a7150c4e173fcb6aaf1d2082bf0081">TURN_RIGHT_CONTROL</a>;</div><div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;       <span class="keywordflow">else</span> <span class="keywordflow">if</span>(ir_val[3]&lt;ir_val[4])<a class="code" href="classRescue_a70a5e292c84029568ff6c0de2f2d9f43.html#a70a5e292c84029568ff6c0de2f2d9f43">_mode</a>=<a class="code" href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702afe3eef9ce0c9dc77b03e2cbeea734899">TURN_LEFT_CONTROL</a>;</div><div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;       <span class="keywordflow">else</span> <a class="code" href="classRescue_a70a5e292c84029568ff6c0de2f2d9f43.html#a70a5e292c84029568ff6c0de2f2d9f43">_mode</a>=<a class="code" href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702ac5b8fd2a28d3d22c89095ccb90ea6e2a">FORWARD</a>;</div><div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;   }</div><div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;   <span class="keywordflow">else</span> <span class="keywordflow">if</span>(ESQUINA)<a class="code" href="classRescue_a70a5e292c84029568ff6c0de2f2d9f43.html#a70a5e292c84029568ff6c0de2f2d9f43">_mode</a>=<a class="code" href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702ae5a7150c4e173fcb6aaf1d2082bf0081">TURN_RIGHT_CONTROL</a>;</div><div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;}</div><div class="ttc" id="classRescue_ab44ced9ce57b1b0d19b5456cd952d702_html_ab44ced9ce57b1b0d19b5456cd952d702afe3eef9ce0c9dc77b03e2cbeea734899"><div class="ttname"><a href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702afe3eef9ce0c9dc77b03e2cbeea734899">Rescue::TURN_LEFT_CONTROL</a></div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00233">Rescue.h:233</a></div></div>
+<div class="ttc" id="classRescue_ab44ced9ce57b1b0d19b5456cd952d702_html_ab44ced9ce57b1b0d19b5456cd952d702aabd16068766c629e1f83fd217668a2e8"><div class="ttname"><a href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702aabd16068766c629e1f83fd217668a2e8">Rescue::TURN_RIGHT</a></div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00232">Rescue.h:232</a></div></div>
+<div class="ttc" id="classRescue_aaafc15a9b059bf1acbfa360915308fe5_html_aaafc15a9b059bf1acbfa360915308fe5"><div class="ttname"><a href="classRescue_aaafc15a9b059bf1acbfa360915308fe5.html#aaafc15a9b059bf1acbfa360915308fe5">Rescue::ir_val</a></div><div class="ttdeci">double ir_val[NUM_DISTANCE_SENSOR]</div><div class="ttdoc">Array de valores de los sensores de distancia. </div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00250">Rescue.h:250</a></div></div>
+<div class="ttc" id="classRescue_a70a5e292c84029568ff6c0de2f2d9f43_html_a70a5e292c84029568ff6c0de2f2d9f43"><div class="ttname"><a href="classRescue_a70a5e292c84029568ff6c0de2f2d9f43.html#a70a5e292c84029568ff6c0de2f2d9f43">Rescue::_mode</a></div><div class="ttdeci">Mode _mode</div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00236">Rescue.h:236</a></div></div>
+<div class="ttc" id="classRescue_ab44ced9ce57b1b0d19b5456cd952d702_html_ab44ced9ce57b1b0d19b5456cd952d702ae5a7150c4e173fcb6aaf1d2082bf0081"><div class="ttname"><a href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702ae5a7150c4e173fcb6aaf1d2082bf0081">Rescue::TURN_RIGHT_CONTROL</a></div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00234">Rescue.h:234</a></div></div>
+<div class="ttc" id="classRescue_ab44ced9ce57b1b0d19b5456cd952d702_html_ab44ced9ce57b1b0d19b5456cd952d702ac5b8fd2a28d3d22c89095ccb90ea6e2a"><div class="ttname"><a href="classRescue_ab44ced9ce57b1b0d19b5456cd952d702.html#ab44ced9ce57b1b0d19b5456cd952d702ac5b8fd2a28d3d22c89095ccb90ea6e2a">Rescue::FORWARD</a></div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00230">Rescue.h:230</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classRescue.html">Rescue</a></li>
+    <li class="footer">Generado el Martes, 26 de Noviembre de 2019 20:59:19 para Robot Pioneer por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

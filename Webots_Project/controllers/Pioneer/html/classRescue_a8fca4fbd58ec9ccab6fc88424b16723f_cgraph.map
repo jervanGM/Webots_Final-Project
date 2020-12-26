@@ -1,0 +1,4 @@
+<map id="Rescue::cameraProcess" name="Rescue::cameraProcess">
+<area shape="rect" id="node2" href="$classRescue.html#af2ba5b73069e7407f1bfc857a1ddae9c" title="Convierte el espacio de colores RGB a HSV para un reconocimiento mejor de colores. " alt="" coords="220,5,359,32"/>
+<area shape="rect" id="node3" href="$classRescue.html#a9a430924f65d71eca4e02dc9b2704947" title="Funcion para asignar un valor en concreto a los atributos _left_speed y _right_speed. " alt="" coords="223,56,356,83"/>
+</map>

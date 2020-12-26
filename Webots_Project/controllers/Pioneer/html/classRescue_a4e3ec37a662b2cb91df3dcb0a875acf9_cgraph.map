@@ -1,0 +1,4 @@
+<map id="Rescue::bug0" name="Rescue::bug0">
+<area shape="rect" id="node2" href="$classRescue.html#a68675aa6bb37102baf46803451e16c82" title="Cada vez que se llama, dará los valores de los sensores inicializados por el robot (exceptuando las c..." alt="" coords="156,13,331,39"/>
+<area shape="rect" id="node3" href="$classRescue.html#ac0d22bd4b26374b9eba3a229397b08a2" title="Convierte los valores dados por el metodo getValues() de Compass en grados. " alt="" coords="379,5,545,47"/>
+</map>

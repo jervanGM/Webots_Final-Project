@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Robot Pioneer: Rescue::~Rescue</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Robot Pioneer
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classRescue_a0330877161b533b15ea96b0daf85b692.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="a0330877161b533b15ea96b0daf85b692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0330877161b533b15ea96b0daf85b692">&#9670;&nbsp;</a></span>~Rescue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rescue::~Rescue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Usado para liberar la memoria de los sensores y resetear el robot a sus valores por defecto. </p>
+<p>Se llama al usar la keyword delete a la clase creada </p><div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code" href="Pioneer_8cpp_a3c04138a5bfe5d72780bb7e82a18e627.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(){</div><div class="line">  <a class="code" href="classRescue.html">Rescue</a> *mirobot=<span class="keyword">new</span> <a class="code" href="classRescue_a307e122659d2fbe9e17f51108951752f.html#a307e122659d2fbe9e17f51108951752f">Rescue</a>();</div><div class="line">  <span class="keyword">delete</span> mirobot; </div><div class="line">}</div></div><!-- fragment --> 
+<p class="definition">Definición en la línea <a class="el" href="Rescue_8cpp_source.html#l00056">56</a> del archivo <a class="el" href="Rescue_8cpp_source.html">Rescue.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// Desactiva dispositivos y para el robot</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="classRescue_a6f2788baf7717274fc75241b989796bc.html#a6f2788baf7717274fc75241b989796bc">_spherical_camera</a>-&gt;disable();</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;<a class="code" href="Rescue_8h_a3bfa6c68d124846bd629eef1504b2556.html#a3bfa6c68d124846bd629eef1504b2556">NUM_DISTANCE_SENSOR</a>; i++) {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="classRescue_a1e1f6c1dc43593a25989127b6ca89ae9.html#a1e1f6c1dc43593a25989127b6ca89ae9">_distance_sensor</a>[i]-&gt;disable();</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="classRescue_ab6c7e1a7c7cb23027b1d53aea73697b7.html#ab6c7e1a7c7cb23027b1d53aea73697b7">_my_compass</a>-&gt;disable();</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="classRescue_ab3b6799de1bf84d1bf4a85afef8db0b2.html#ab3b6799de1bf84d1bf4a85afef8db0b2">_my_gps</a>-&gt;disable();</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    this-&gt;disableEncoders();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classRescue_a8cc51f98f8203494918ca1d313fca408.html#a8cc51f98f8203494918ca1d313fca408">_forward_camera</a>-&gt;disable();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    setSpeed(0.0,0.0);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div><div class="ttc" id="classRescue_ab6c7e1a7c7cb23027b1d53aea73697b7_html_ab6c7e1a7c7cb23027b1d53aea73697b7"><div class="ttname"><a href="classRescue_ab6c7e1a7c7cb23027b1d53aea73697b7.html#ab6c7e1a7c7cb23027b1d53aea73697b7">Rescue::_my_compass</a></div><div class="ttdeci">Compass * _my_compass</div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00273">Rescue.h:273</a></div></div>
+<div class="ttc" id="Rescue_8h_a3bfa6c68d124846bd629eef1504b2556_html_a3bfa6c68d124846bd629eef1504b2556"><div class="ttname"><a href="Rescue_8h_a3bfa6c68d124846bd629eef1504b2556.html#a3bfa6c68d124846bd629eef1504b2556">NUM_DISTANCE_SENSOR</a></div><div class="ttdeci">#define NUM_DISTANCE_SENSOR</div><div class="ttdoc">Numero de sensores ultrasonidos que dispone el robot. </div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00018">Rescue.h:18</a></div></div>
+<div class="ttc" id="classRescue_ab3b6799de1bf84d1bf4a85afef8db0b2_html_ab3b6799de1bf84d1bf4a85afef8db0b2"><div class="ttname"><a href="classRescue_ab3b6799de1bf84d1bf4a85afef8db0b2.html#ab3b6799de1bf84d1bf4a85afef8db0b2">Rescue::_my_gps</a></div><div class="ttdeci">GPS * _my_gps</div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00274">Rescue.h:274</a></div></div>
+<div class="ttc" id="classRescue_a6f2788baf7717274fc75241b989796bc_html_a6f2788baf7717274fc75241b989796bc"><div class="ttname"><a href="classRescue_a6f2788baf7717274fc75241b989796bc.html#a6f2788baf7717274fc75241b989796bc">Rescue::_spherical_camera</a></div><div class="ttdeci">Camera * _spherical_camera</div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00271">Rescue.h:271</a></div></div>
+<div class="ttc" id="classRescue_a8cc51f98f8203494918ca1d313fca408_html_a8cc51f98f8203494918ca1d313fca408"><div class="ttname"><a href="classRescue_a8cc51f98f8203494918ca1d313fca408.html#a8cc51f98f8203494918ca1d313fca408">Rescue::_forward_camera</a></div><div class="ttdeci">Camera * _forward_camera</div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00275">Rescue.h:275</a></div></div>
+<div class="ttc" id="classRescue_a1e1f6c1dc43593a25989127b6ca89ae9_html_a1e1f6c1dc43593a25989127b6ca89ae9"><div class="ttname"><a href="classRescue_a1e1f6c1dc43593a25989127b6ca89ae9.html#a1e1f6c1dc43593a25989127b6ca89ae9">Rescue::_distance_sensor</a></div><div class="ttdeci">DistanceSensor * _distance_sensor[NUM_DISTANCE_SENSOR]</div><div class="ttdef"><b>Definition:</b> <a href="Rescue_8h_source.html#l00272">Rescue.h:272</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classRescue.html">Rescue</a></li>
+    <li class="footer">Generado el Martes, 26 de Noviembre de 2019 20:59:19 para Robot Pioneer por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

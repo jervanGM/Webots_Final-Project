@@ -1,0 +1,11 @@
+<map id="Rescue::Back" name="Rescue::Back">
+<area shape="rect" id="node2" href="$classRescue.html#a68675aa6bb37102baf46803451e16c82" title="Cada vez que se llama, dará los valores de los sensores inicializados por el robot (exceptuando las c..." alt="" coords="568,31,743,57"/>
+<area shape="rect" id="node4" href="$classRescue.html#a3c978120304fcdbe702f3e306bef6c02" title="Inicializa el robot a una orientación general dada por parametro a la ida(Go()) o vuelta (Back()) del..." alt="" coords="363,157,515,184"/>
+<area shape="rect" id="node6" href="$classRescue.html#aa9f20abea5898b53b03db91f2a323982" title="En este método, el robot sigue el muro con los sensores de distancia laterales esquivando obstáculos ..." alt="" coords="172,107,297,133"/>
+<area shape="rect" id="node7" href="$classRescue.html#a85cbbec8d486f16e260d3f74c3221831" title="Este método emplea la misma metodología que Go(), primero el robot debe ir al centro del mapa esquiva..." alt="" coords="159,5,311,32"/>
+<area shape="rect" id="node9" href="$classRescue.html#aeef91de334e7779ce2fb2c2b57cd70c3" title="Función principal para los modos del robot, cada vez que se llama, mira cual fue el ultimo modo activ..." alt="" coords="165,208,304,235"/>
+<area shape="rect" id="node3" href="$classRescue.html#ac0d22bd4b26374b9eba3a229397b08a2" title="Convierte los valores dados por el metodo getValues() de Compass en grados. " alt="" coords="791,23,957,65"/>
+<area shape="rect" id="node5" href="$classRescue.html#a9a430924f65d71eca4e02dc9b2704947" title="Funcion para asignar un valor en concreto a los atributos _left_speed y _right_speed. " alt="" coords="589,208,722,235"/>
+<area shape="rect" id="node8" href="$classRescue.html#a4e3ec37a662b2cb91df3dcb0a875acf9" title="Aplica la tecnica del bug0 en base a una posición objetivo y asigna un valor a deg que se actualiza c..." alt="" coords="388,5,491,32"/>
+<area shape="rect" id="node10" href="$classRescue.html#a47bd9c67c0e779f2dbf9ce6e5f81b831" title="Funcion generalmente usada en modo FORWARD para manener una dirección concreta dada por el atributo a..." alt="" coords="359,208,520,235"/>
+</map>

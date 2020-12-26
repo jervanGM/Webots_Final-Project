@@ -1,0 +1,7 @@
+<map id="Rescue::RGB2HSV" name="Rescue::RGB2HSV">
+<area shape="rect" id="node2" href="$classRescue.html#ab1ea1e98e62403dc681f26529805fe2a" title="Esta función es usada principalmente en Go, su función principal es la busqueda de la linea amarilla ..." alt="" coords="207,5,343,32"/>
+<area shape="rect" id="node5" href="$classRescue.html#a8fca4fbd58ec9ccab6fc88424b16723f" title="Método utilizado en Search(), este método, a igual que yellowLine(),alaniza pixel por pixel para enco..." alt="" coords="192,56,359,83"/>
+<area shape="rect" id="node3" href="$classRescue.html#acfe79ba42004fd73e17e240c0201462a" title="Primera función principal de las fases de Go,Search,Back. " alt="" coords="419,5,511,32"/>
+<area shape="rect" id="node4" href="$Pioneer_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Main program. " alt="" coords="571,31,621,57"/>
+<area shape="rect" id="node6" href="$classRescue.html#a3ea9a01b97d0291afa704bff73564938" title="Segundo método principar de la clase Rescue, en este método tiene como finalidad buscar dos objetivos..." alt="" coords="407,56,523,83"/>
+</map>

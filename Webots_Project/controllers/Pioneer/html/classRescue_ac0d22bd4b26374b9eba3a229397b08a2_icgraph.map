@@ -1,0 +1,9 @@
+<map id="Rescue::convert_bearing_to_degrees" name="Rescue::convert_bearing_to_degrees">
+<area shape="rect" id="node2" href="$classRescue.html#a68675aa6bb37102baf46803451e16c82" title="Cada vez que se llama, dará los valores de los sensores inicializados por el robot (exceptuando las c..." alt="" coords="220,81,395,108"/>
+<area shape="rect" id="node3" href="$classRescue.html#a4e3ec37a662b2cb91df3dcb0a875acf9" title="Aplica la tecnica del bug0 en base a una posición objetivo y asigna un valor a deg que se actualiza c..." alt="" coords="443,56,545,83"/>
+<area shape="rect" id="node4" href="$classRescue.html#acfe79ba42004fd73e17e240c0201462a" title="Primera función principal de las fases de Go,Search,Back. " alt="" coords="623,5,715,32"/>
+<area shape="rect" id="node6" href="$classRescue.html#a3ea9a01b97d0291afa704bff73564938" title="Segundo método principar de la clase Rescue, en este método tiene como finalidad buscar dos objetivos..." alt="" coords="611,157,727,184"/>
+<area shape="rect" id="node8" href="$classRescue.html#a5acc91c16b60baf09a87f440a22f030f" title="Tercer y último método principal de Rescue, llama a initialPosition para situarse a 180º con respecto..." alt="" coords="793,69,899,96"/>
+<area shape="rect" id="node7" href="$classRescue.html#a85cbbec8d486f16e260d3f74c3221831" title="Este método emplea la misma metodología que Go(), primero el robot debe ir al centro del mapa esquiva..." alt="" coords="593,56,745,83"/>
+<area shape="rect" id="node5" href="$Pioneer_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Main program. " alt="" coords="947,69,997,96"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classRescue.html#acfe79ba42004fd73e17e240c0201462a" title="Primera función principal de las fases de Go,Search,Back. " alt="" coords="111,233,203,260"/>
+<area shape="rect" id="node13" href="$classRescue.html#a3ea9a01b97d0291afa704bff73564938" title="Segundo método principar de la clase Rescue, en este método tiene como finalidad buscar dos objetivos..." alt="" coords="275,360,391,387"/>
+<area shape="rect" id="node15" href="$classRescue.html#a5acc91c16b60baf09a87f440a22f030f" title="Tercer y último método principal de Rescue, llama a initialPosition para situarse a 180º con respecto..." alt="" coords="104,436,209,463"/>
+<area shape="rect" id="node3" href="$classRescue.html#a68675aa6bb37102baf46803451e16c82" title="Cada vez que se llama, dará los valores de los sensores inicializados por el robot (exceptuando las c..." alt="" coords="672,436,847,463"/>
+<area shape="rect" id="node5" href="$classRescue.html#a7db0c26d41013e7405311d2725efce86" title="Función especifia usada en Go(), indica una situación especial dada en el mapa de prueba scenario7 el..." alt="" coords="265,157,402,184"/>
+<area shape="rect" id="node6" href="$classRescue.html#a4e3ec37a662b2cb91df3dcb0a875acf9" title="Aplica la tecnica del bug0 en base a una posición objetivo y asigna un valor a deg que se actualiza c..." alt="" coords="489,461,592,488"/>
+<area shape="rect" id="node7" href="$classRescue.html#ab1ea1e98e62403dc681f26529805fe2a" title="Esta función es usada principalmente en Go, su función principal es la busqueda de la linea amarilla ..." alt="" coords="473,5,609,32"/>
+<area shape="rect" id="node9" href="$classRescue.html#aeef91de334e7779ce2fb2c2b57cd70c3" title="Función principal para los modos del robot, cada vez que se llama, mira cual fue el ultimo modo activ..." alt="" coords="264,259,403,285"/>
+<area shape="rect" id="node10" href="$classRescue.html#a9a430924f65d71eca4e02dc9b2704947" title="Funcion para asignar un valor en concreto a los atributos _left_speed y _right_speed. " alt="" coords="693,171,826,197"/>
+<area shape="rect" id="node12" href="$classRescue.html#a3c978120304fcdbe702f3e306bef6c02" title="Inicializa el robot a una orientación general dada por parametro a la ida(Go()) o vuelta (Back()) del..." alt="" coords="257,208,409,235"/>
+<area shape="rect" id="node4" href="$classRescue.html#ac0d22bd4b26374b9eba3a229397b08a2" title="Convierte los valores dados por el metodo getValues() de Compass en grados. " alt="" coords="895,429,1061,470"/>
+<area shape="rect" id="node8" href="$classRescue.html#af2ba5b73069e7407f1bfc857a1ddae9c" title="Convierte el espacio de colores RGB a HSV para un reconocimiento mejor de colores. " alt="" coords="690,95,829,121"/>
+<area shape="rect" id="node11" href="$classRescue.html#a47bd9c67c0e779f2dbf9ce6e5f81b831" title="Funcion generalmente usada en modo FORWARD para manener una dirección concreta dada por el atributo a..." alt="" coords="460,259,621,285"/>
+<area shape="rect" id="node14" href="$classRescue.html#a8fca4fbd58ec9ccab6fc88424b16723f" title="Método utilizado en Search(), este método, a igual que yellowLine(),alaniza pixel por pixel para enco..." alt="" coords="457,107,624,133"/>
+<area shape="rect" id="node16" href="$classRescue.html#aa9f20abea5898b53b03db91f2a323982" title="En este método, el robot sigue el muro con los sensores de distancia laterales esquivando obstáculos ..." alt="" coords="271,563,396,589"/>
+<area shape="rect" id="node17" href="$classRescue.html#a85cbbec8d486f16e260d3f74c3221831" title="Este método emplea la misma metodología que Go(), primero el robot debe ir al centro del mapa esquiva..." alt="" coords="257,461,409,488"/>
+</map>

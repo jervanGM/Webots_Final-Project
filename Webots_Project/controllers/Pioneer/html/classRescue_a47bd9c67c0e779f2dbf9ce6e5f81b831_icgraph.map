@@ -1,0 +1,7 @@
+<map id="Rescue::controlForward" name="Rescue::controlForward">
+<area shape="rect" id="node2" href="$classRescue.html#aeef91de334e7779ce2fb2c2b57cd70c3" title="Función principal para los modos del robot, cada vez que se llama, mira cual fue el ultimo modo activ..." alt="" coords="215,56,353,83"/>
+<area shape="rect" id="node6" href="$classRescue.html#a3ea9a01b97d0291afa704bff73564938" title="Segundo método principar de la clase Rescue, en este método tiene como finalidad buscar dos objetivos..." alt="" coords="226,107,342,133"/>
+<area shape="rect" id="node3" href="$classRescue.html#acfe79ba42004fd73e17e240c0201462a" title="Primera función principal de las fases de Go,Search,Back. " alt="" coords="408,5,500,32"/>
+<area shape="rect" id="node5" href="$classRescue.html#a5acc91c16b60baf09a87f440a22f030f" title="Tercer y último método principal de Rescue, llama a initialPosition para situarse a 180º con respecto..." alt="" coords="401,56,507,83"/>
+<area shape="rect" id="node4" href="$Pioneer_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Main program. " alt="" coords="555,56,605,83"/>
+</map>

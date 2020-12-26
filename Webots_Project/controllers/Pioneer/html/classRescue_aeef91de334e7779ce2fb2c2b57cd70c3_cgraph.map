@@ -1,0 +1,4 @@
+<map id="Rescue::controlLine" name="Rescue::controlLine">
+<area shape="rect" id="node2" href="$classRescue.html#a9a430924f65d71eca4e02dc9b2704947" title="Funcion para asignar un valor en concreto a los atributos _left_speed y _right_speed. " alt="" coords="401,5,535,32"/>
+<area shape="rect" id="node3" href="$classRescue.html#a47bd9c67c0e779f2dbf9ce6e5f81b831" title="Funcion generalmente usada en modo FORWARD para manener una dirección concreta dada por el atributo a..." alt="" coords="192,31,353,57"/>
+</map>

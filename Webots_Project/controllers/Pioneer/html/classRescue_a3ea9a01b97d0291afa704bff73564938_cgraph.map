@@ -1,0 +1,9 @@
+<map id="Rescue::Search" name="Rescue::Search">
+<area shape="rect" id="node2" href="$classRescue.html#a68675aa6bb37102baf46803451e16c82" title="Cada vez que se llama, dará los valores de los sensores inicializados por el robot (exceptuando las c..." alt="" coords="384,13,559,39"/>
+<area shape="rect" id="node4" href="$classRescue.html#a9a430924f65d71eca4e02dc9b2704947" title="Funcion para asignar un valor en concreto a los atributos _left_speed y _right_speed. " alt="" coords="405,139,538,166"/>
+<area shape="rect" id="node5" href="$classRescue.html#a8fca4fbd58ec9ccab6fc88424b16723f" title="Método utilizado en Search(), este método, a igual que yellowLine(),alaniza pixel por pixel para enco..." alt="" coords="169,190,336,217"/>
+<area shape="rect" id="node7" href="$classRescue.html#a47bd9c67c0e779f2dbf9ce6e5f81b831" title="Funcion generalmente usada en modo FORWARD para manener una dirección concreta dada por el atributo a..." alt="" coords="172,139,333,166"/>
+<area shape="rect" id="node8" href="$classRescue.html#a4e3ec37a662b2cb91df3dcb0a875acf9" title="Aplica la tecnica del bug0 en base a una posición objetivo y asigna un valor a deg que se actualiza c..." alt="" coords="201,38,304,65"/>
+<area shape="rect" id="node3" href="$classRescue.html#ac0d22bd4b26374b9eba3a229397b08a2" title="Convierte los valores dados por el metodo getValues() de Compass en grados. " alt="" coords="607,5,773,47"/>
+<area shape="rect" id="node6" href="$classRescue.html#af2ba5b73069e7407f1bfc857a1ddae9c" title="Convierte el espacio de colores RGB a HSV para un reconocimiento mejor de colores. " alt="" coords="402,190,541,217"/>
+</map>
